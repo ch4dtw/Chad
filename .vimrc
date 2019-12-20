@@ -26,7 +26,7 @@ set ruler "設定右下角尺標"
 set scrolloff=3 "向下捲動保留三行
 set confirm "操作過程有衝突時，以明確的文字來詢問
 
-ab python w<CR>:!clear; echo "\#\#\#\#\#source\#\#\#\#\#\n"; cat %; echo "\n\#\#\#\#\#result\#\#\#\#\#\n" ; python -i %
+ab python w<CR>:!clear; echo "\#\#\#\#\#source\#\#\#\#\#\n"; cat %; echo "\n\#\#\#\#\#result\#\#\#\#\#\n" ; python3 -i %
 
 "python plugin jedi
 "execute pathogen#infect()
