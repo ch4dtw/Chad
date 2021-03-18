@@ -12,7 +12,7 @@ Install zsh
 ```
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh):
-```bash```
+```bash
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 Copy oh-my-zsh theme
